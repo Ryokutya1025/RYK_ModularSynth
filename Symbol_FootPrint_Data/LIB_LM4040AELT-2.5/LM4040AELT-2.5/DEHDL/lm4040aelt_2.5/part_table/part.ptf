@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'LM4040AELT_2.5'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "STMicroelectronics", "LM4040AELT-2.5" (!) = "", "LM4040AELT25", "Other", "", "", "LM4040AELT-2.5", "https://www.arrow.com/en/products/lm4040aelt-2.5/stmicroelectronics?utm_currency=USD&region=nac", "Precision micropower shunt voltage reference", "https://www.st.com/resource/en/datasheet/lm4040.pdf", "1.12 mm"
+END_PART
+
+END.
