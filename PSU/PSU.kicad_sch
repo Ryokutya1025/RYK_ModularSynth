@@ -1965,7 +1965,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 50.8) (xy 260.35 78.74)
+			(xy 260.35 50.8) (xy 260.35 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2065,7 +2065,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 78.74) (xy 260.35 78.74)
+			(xy 266.7 76.2) (xy 260.35 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2185,7 +2185,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 73.66) (xy 257.81 73.66)
+			(xy 266.7 81.28) (xy 257.81 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2235,7 +2235,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 73.66) (xy 257.81 101.6)
+			(xy 257.81 81.28) (xy 257.81 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2255,7 +2255,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 76.2) (xy 255.27 81.28)
+			(xy 255.27 76.2) (xy 255.27 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2395,7 +2395,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 81.28) (xy 266.7 81.28)
+			(xy 255.27 73.66) (xy 266.7 73.66)
 		)
 		(stroke
 			(width 0)
@@ -4334,6 +4334,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 266.7 78.74 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "453e2f7d-1cce-4552-80e2-07e894d88bc3")
+		(property "Reference" "#PWR04"
+			(at 260.35 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 262.128 78.74 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 266.7 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "08b43053-5205-4ed0-a5d5-7dff6f08f20f")
+		)
+		(instances
+			(project "PSU"
+				(path "/1fa7cd55-31eb-4e49-8861-5c4a15d38e26"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 57.15 54.61 0)
 		(unit 1)
@@ -4967,83 +5044,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 266.7 76.2 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "64e071cf-3b20-4249-a3cc-7e6fe3521255")
-		(property "Reference" "#PWR04"
-			(at 260.35 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 262.128 76.2 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 266.7 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 266.7 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 266.7 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b3adcbcf-a17e-4833-b523-3c777aac574d")
-		)
-		(instances
-			(project "PSU"
-				(path "/1fa7cd55-31eb-4e49-8861-5c4a15d38e26"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 57.15 143.51 270)
 		(unit 1)
@@ -5664,6 +5664,116 @@
 			(project "PSU"
 				(path "/1fa7cd55-31eb-4e49-8861-5c4a15d38e26"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TB002-500-04BE:TB002-500-04BE")
+		(at 276.86 78.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8c456e7b-c945-4d35-8d13-32ad09bf8019")
+		(property "Reference" "J2"
+			(at 276.86 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "To Busboard"
+			(at 276.86 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TB002-500-04BE:CUI_TB002-500-04BE"
+			(at 276.86 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 276.86 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 276.86 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 276.86 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "CUI"
+			(at 276.86 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "2"
+			(uuid "10a2908d-991a-454d-a45e-beb78b44c804")
+		)
+		(pin "4"
+			(uuid "3a959e06-4211-4595-b21d-39838ff89afa")
+		)
+		(pin "1"
+			(uuid "72bd8f0c-5eec-4d19-a6b4-ee66ec8d5c3c")
+		)
+		(pin "3"
+			(uuid "c56b305f-0c6c-4696-b2f6-505994384868")
+		)
+		(instances
+			(project "PSU"
+				(path "/1fa7cd55-31eb-4e49-8861-5c4a15d38e26"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -7608,116 +7718,6 @@
 			(project "PSU"
 				(path "/1fa7cd55-31eb-4e49-8861-5c4a15d38e26"
 					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TB002-500-04BE:TB002-500-04BE")
-		(at 276.86 78.74 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "efb59950-4a1e-4786-9e16-ec6e8f1123bc")
-		(property "Reference" "J2"
-			(at 276.86 66.04 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "To Busboard"
-			(at 276.86 68.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TB002-500-04BE:CUI_TB002-500-04BE"
-			(at 276.86 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 276.86 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 276.86 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 276.86 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "CUI"
-			(at 276.86 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(pin "2"
-			(uuid "f61296fc-f3f3-4792-9bfb-a969b6fb2c48")
-		)
-		(pin "4"
-			(uuid "97fa0f9b-5fca-4c48-aabc-0927c6c9e27a")
-		)
-		(pin "1"
-			(uuid "a3b2215f-0718-46a7-b932-0650b8dd932f")
-		)
-		(pin "3"
-			(uuid "a155722a-d538-4dd5-b78e-5ad1c636b510")
-		)
-		(instances
-			(project "PSU"
-				(path "/1fa7cd55-31eb-4e49-8861-5c4a15d38e26"
-					(reference "J2")
 					(unit 1)
 				)
 			)
