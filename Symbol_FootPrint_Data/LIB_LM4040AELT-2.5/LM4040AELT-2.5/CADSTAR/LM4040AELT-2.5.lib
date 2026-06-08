@@ -1,0 +1,18 @@
+.LM4040AELT-2.5 :1 ;Precision micropower shunt voltage reference
+LM4040AELT25
+*STM IC
+*NGS
+*PLB 1="CATHODE" 2="ANODE" 3="NC"
+*MXP 3
+*DFN LM4040AELT-2.5
+~!Manufacturer_Name (STMicroelectronics)
+~!Manufacturer_Part_Number (LM4040AELT-2.5)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Arrow Part Number (LM4040AELT-2.5)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/lm4040aelt-2.5/stmicroelectronics?utm_currency=USD&region=nac)
+~!Link Datasheet (https://www.st.com/resource/en/datasheet/lm4040.pdf)
+~!Height (1.12mm)
+~!3D_Model (LM4040AELT-2.5)
+LM4040AELT-2.5
+1.1!U 2.1!U 3.1!U 

@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "LM4040AELT-2_5"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2025-01-28-04:42:44)
+    (mountForm default
+        (footprintRef "LM4040AELT25")
+        (spec "System")
+    )
+)
