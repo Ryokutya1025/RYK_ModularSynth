@@ -1,0 +1,14 @@
+# KiCad / editor backup folders
+**/.history/
+**/*-backups/
+
+# KiCad local/user files
+*.kicad_prl
+fp-info-cache
+*.bak
+*.tmp
+
+# OS/editor junk
+.DS_Store
+Thumbs.db
+.vscode/
