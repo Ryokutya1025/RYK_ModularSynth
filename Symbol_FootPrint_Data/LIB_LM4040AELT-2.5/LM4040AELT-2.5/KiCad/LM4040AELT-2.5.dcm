@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP LM4040AELT-2.5
-D Precision micropower shunt voltage reference
-K
-F https://www.st.com/resource/en/datasheet/lm4040.pdf
-$ENDCMP
-#
-#End Doc Library

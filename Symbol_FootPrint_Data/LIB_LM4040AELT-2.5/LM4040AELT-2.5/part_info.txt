@@ -1,9 +1,0 @@
-Manufacturer=STMicroelectronics
-PartNumber=LM4040AELT-2.5
-PartCategory=Integrated Circuit
-PackageCategory=Other
-PinCount=3
-Version=4.3
-Released=2022-02-22 10:53:02
-Downloaded=2026-06-01 22:20:12
-3D=Y
