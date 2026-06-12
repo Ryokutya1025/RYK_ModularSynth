@@ -1,0 +1,18 @@
+.MC74HCT14ADR2G-Q :1 ;In Compliance with the Requirements Defined by JEDEC Standard No. 7A; TTL/NMOS-Compatible Input Levels; Chip Complexity: 72 FETs or 18 Equivalent Gates; Operating Voltage Range: 4.5 to 5.5 V; Output Drive Capability: 10 LSTTL Loads; Outputs Directly Interface to CMOS, NMOS and TTL; Low Input Current: 1.0 mA; Pb-Free Packages are Available
+SOIC127P600X175-14N
+*STM IC
+*NGS
+*PLB 1="A1" 2="Y1" 3="A2" 4="Y2" 5="A3" 6="Y3" 7="GND" 8="Y4" 9="A4" 10="Y5" 11="A5" 12="Y6" 13="A6" 14="VCC"
+*MXP 14
+*DFN MC74HCT14ADR2G-Q
+~!Manufacturer_Name (onsemi)
+~!Manufacturer_Part_Number (MC74HCT14ADR2G-Q)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://www.onsemi.com/pub/Collateral/MC74HC14A-D.PDF)
+~!Height (1.75mm)
+~!3D_Model (MC74HCT14ADR2G-Q)
+MC74HCT14ADR2G-Q
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 14.1!U 13.1!U 12.1!U 11.1!U 10.1!U 9.1!U 8.1!U 

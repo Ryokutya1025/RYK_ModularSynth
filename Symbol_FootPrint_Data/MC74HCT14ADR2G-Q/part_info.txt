@@ -1,0 +1,9 @@
+Manufacturer=onsemi
+PartNumber=MC74HCT14ADR2G-Q
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=14
+Version=2.1
+Released=2025-06-06 03:31:07
+Downloaded=2026-06-11 21:33:43
+3D=Y
